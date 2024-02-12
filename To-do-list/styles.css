@@ -91,12 +91,13 @@ ul li.checked {
 }
 
 ul li.checked {
-   background-image: url(./images/checked.png);
+   color: #555;
+   text-decoration: line-through;
 }
 
-/* ul li.checked::before{
+ul li.checked::before{
    background-image: url(./images/checked.png);
-} */
+}
 
 ul li span {
    position: absolute;
